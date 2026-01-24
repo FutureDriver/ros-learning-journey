@@ -6,6 +6,7 @@
 
 
 ## 📁 项目结构
+```
 catkin_ws/  
 ├── src/  
 │    ├── my_first_package/ # ROS核心概念练习  
@@ -27,7 +28,7 @@ catkin_ws/
 ├── README.md  # 本文件  
 ├──.gitignore  # Git忽略规则
 └── LICENSE    # ⚖️ 开源许可证（可选）
-
+```
 
 ## 🚀 快速开始
 如果你是新手，想快速体验这个项目：
