@@ -205,9 +205,12 @@ include_directories(
 # catkin_add_nosetests(test)
 
 
-add_executable(my_first_package_node src/main.cpp)
-  target_link_libraries(my_first_package_node
+add_executable(chao_node src/chao_node.cpp)
+  target_link_libraries(chao_node
    ${catkin_LIBRARIES}
  )
 
- 
+ add_executable(ma_node src/ma_node.cpp)
+  target_link_libraries(ma_node
+   ${catkin_LIBRARIES}
+ )

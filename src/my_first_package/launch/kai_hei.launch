@@ -1,0 +1,8 @@
+<launch>
+
+    <node pkg="my_first_package" type="chao_node" name="chao_node"/>
+
+    <node pkg="my_first_package" type="ma_node" name="ma_node" output="screen"/>
+
+    
+</launch>
